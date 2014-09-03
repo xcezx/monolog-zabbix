@@ -1,0 +1,19 @@
+{
+  "name": "xcezx/monolog-zabbix",
+  "description": "Zabbix handler for monolog",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "xcezx",
+      "email": "main.xcezx@gmail.com"
+    }
+  ],
+  "require": {
+    "monolog/monolog": "1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "xcezx\\Monolog\\": "src/"
+    }
+  }
+}
