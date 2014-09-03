@@ -43,6 +43,6 @@ class ZabbixFormatter implements FormatterInterface
 
     public function formatBatch(array $records)
     {
-        var_dump($records);
+        // @TODO
     }
 }
